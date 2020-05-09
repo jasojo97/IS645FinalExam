@@ -13,6 +13,8 @@ export class AppComponent {
 
   arrayEven: number[];
   arrayEvenFinal: number[];
+  result: number[];
+
 
 
   checkInputs(): string {
@@ -37,6 +39,12 @@ export class AppComponent {
     if(isNaN(this.secondInput)==true){
       return true;
     }
+
+    if(isNaN(this.firstInput)==false && isNaN(this.secondInput)==false){
+
+      return false;
+
+    }
     
     
   }
@@ -59,9 +67,9 @@ export class AppComponent {
       }
     }
 
-    const result = this.arrayEven.filter(function(num){return this.firstInput > this.secondInput ? num % 2 ===0: num%2 ===1}); 
+    this.result = this.arrayEven.filter(function(num){return this.firstInput > this.secondInput ? num % 2 ===0: num%2 ===1}); 
 
-    return result;
+    return this.result;
 
     
     
