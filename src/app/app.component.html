@@ -33,13 +33,13 @@
    <h2 class="text-success">Calculation Result: </h2>
  </div>
 
- <div class="mw-100 text-danger" *ngIf="checkInputs()==true">
+ <div class="mw-100 text-danger" *ngIf="checkInputs2()==true">
    <div>
     <p>{{checkInputs()}}</p>
    </div>
  </div>
 
- <div class="mw-100 text-info" *ngIf="checkInputs()==false">
+ <div class="mw-100 text-info" *ngIf="checkInputs2()==false">
   <div *ngFor="let number of gettingEven()">
     <p>There are {{gettingEven().length}} even numbers</p>
    <p>{{number}},</p>
