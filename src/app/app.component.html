@@ -7,7 +7,7 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-<div class="bg-info text-center p-2">
+<div class="bg-info text-center p-2 border mw-100">
   <h1 class="text-danger">
     Final Exam
   </h1>
@@ -18,19 +18,25 @@
 
  </div>
 
- <div class="text-success">
-   <p>Number 1</p>
-   <input class = "form-control" [(ngModel)]="firstInput"/>
-   <p>Number 2</p>
-   <input class= "form-control"[(ngModel)]="secondInput"/>
+ <div class="text-success p-2 mw-100">
+   <p class="col-1">Number 1 </p>
+   <input class = "form-control col-1" [(ngModel)]="firstInput"/>
+   <p class="col-3">Number 2</p>
+   <input class= "form-control col-3"[(ngModel)]="secondInput"/>
   
  </div>
  <button class="btn-primary-warning" >
    Submit
  </button>
 
- <div>
+ <div class="mw-100">
    <h2 class="text-success">Calculation Result: </h2>
+ </div>
+
+ <div class="mw-100">
+   <div>
+    <p></p>
+   </div>
  </div>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
