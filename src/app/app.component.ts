@@ -7,4 +7,15 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'final';
+
+  firstInput: number;
+  secondInput: number;
+
+  arrayEven: number[];
+
+
+  checkInputs(): number {
+    
+    return 10;
+  }
 }
