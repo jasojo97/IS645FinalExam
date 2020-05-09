@@ -20,14 +20,18 @@
 
  <div class="text-success">
    <p>Number 1</p>
-   <input [(ngModel)]="firstInput"/>
+   <input class = "form-control" [(ngModel)]="firstInput"/>
    <p>Number 2</p>
-   <input [(ngModel)]="secondInput"/>
+   <input class= "form-control"[(ngModel)]="secondInput"/>
   
  </div>
- <button (onclick)>
+ <button class="btn-primary-warning" >
    Submit
  </button>
+
+ <div>
+   <h2 class="text-success">Calculation Result: </h2>
+ </div>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
