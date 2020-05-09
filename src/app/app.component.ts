@@ -18,4 +18,10 @@ export class AppComponent {
     
     return 10;
   }
+
+  gettingEven(): number[]{
+    
+    
+    return [1,2,3];
+  }
 }
