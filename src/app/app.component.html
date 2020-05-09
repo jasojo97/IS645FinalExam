@@ -7,7 +7,7 @@
 <!-- * * * * * * * to get started with your project! * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 
-<div class="bg-info text-center">
+<div class="bg-info text-center p-2">
   <h1 class="text-danger">
     Final Exam
   </h1>
@@ -16,9 +16,18 @@
     Find all even numbers between two numbers
   </h3>
 
- 
+ </div>
 
-</div>
+ <div class="text-success">
+   <p>Number 1</p>
+   <input [(ngModel)]="firstInput"/>
+   <p>Number 2</p>
+   <input [(ngModel)]="secondInput"/>
+  
+ </div>
+ <button (onclick)>
+   Submit
+ </button>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * The content above * * * * * * * * * * * -->
